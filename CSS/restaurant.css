@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+
+}
+label.logo{
+    color: rgba(255, 166, 0, 0.819);
+    font-size: 20px;
+    line-height: 80px;
+    padding: 1 100px;
+    font-weight: bold;
+}
+nav{
+    background-image: url('../img/food5.jpg');
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block; /* nav bar element in a line*/
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+a:hover{
+    background: #dd7214;
+    transition: .5s;
+    
+}
+a.active{
+    visibility: hidden;
+}
+ul.tagline{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div{
+    margin: 5px;
+}
+#flogo{
+    padding-left: 5px;
+}

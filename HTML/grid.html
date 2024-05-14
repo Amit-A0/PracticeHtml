@@ -1,0 +1,41 @@
+<!-- Grid is not responsive . -->
+<html>
+<head>
+    <title>grid</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            height: 100px;
+            background-color: rebeccapurple;
+        }
+        .box2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: red;
+            height: 200px;
+        }
+        .box3{
+            background-color: rgb(225, 255, 0);
+            height: 100px;
+        }
+        .box4{
+            background-color: rgb(0, 132, 255);
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+    </div>
+</body>
+</html>
